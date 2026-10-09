@@ -7,6 +7,7 @@ Designed and implemented an end-to-end batch data warehouse pipeline using Micro
 The project demonstrates data extraction, cloud storage, ETL processing, data validation, and analytical reporting.
 
 ## Architecture
+![AWS Data Warehouse Architecture](AWS%20Sales%20Data%20Warehouse%20Pipeline.png) 
 
 **SQL Server → CSV Export → Amazon S3 (Raw) → AWS Glue → Amazon S3 (Parquet) → Amazon Redshift Serverless**
 
